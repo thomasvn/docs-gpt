@@ -1,0 +1,4 @@
+secrets*
+.ipynb_checkpoints
+.chroma
+data
