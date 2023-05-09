@@ -2,3 +2,6 @@ secrets*
 .ipynb_checkpoints
 .chroma
 data
+db
+.terraform*
+*.tfstate*

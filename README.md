@@ -22,9 +22,17 @@ jupyter lab
 
 <!-- 
 TODO:
-- Parameterize the query
-- Save the database so we don't need to run the text loaders each time.
+- Server + API + WebApp
+  - t3.large
+  - Move to us-east-1
+  - Update to SPOT instance
+  - Automate provisioning of app
 - Be capable of querying without the notebook.
+- Minimize OpenAI Costs
+  - Save the database so we don't need to run the text loaders each time.
+  - update_db.py -> call this daily to save the database
+  - query.py -> perform a query against the database
+- Parameterize the query
 - Indexed on Public Docs Repo and Private Support Repo
 - Code inside embeddings?
 - Chaining with the user conversation.
