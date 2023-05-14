@@ -22,6 +22,8 @@ jupyter lab
 
 <!-- 
 TODO:
+- Fine tuning.
+  - Return more docs on a similarity search?
 - Server + API + WebApp
   - t3.large
   - Move to us-east-1
@@ -36,8 +38,11 @@ TODO:
 - Indexed on Public Docs Repo and Private Support Repo
 - Code inside embeddings?
 - Chaining with the user conversation.
+- Programmatically get ALL of Kubecost's Repos
 
-DONE:
+DONE (recent to old):
+- Persist the VectorStore. Load from the VectorStore. (expensive to create Embeddings every time)
+- Programmatically clone from many Kubecost repos. Read from many different filetypes.
 - Manually put Kubecost docs into the data, and load it. Query the docs.
 - Grab all documentation from the web.
 -->
